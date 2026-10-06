@@ -6,16 +6,16 @@
 </p>
 
 <p align="center">
-  <img alt="License" src="https://img.shields.io/github/license/gossio/gossio-skills">
-  <img alt="Latest Release" src="https://img.shields.io/github/v/release/gossio/gossio-skills">
-  <img alt="GitHub Stars" src="https://img.shields.io/github/stars/gossio/gossio-skills?style=social">
+  <img alt="License" src="https://img.shields.io/github/license/inerhead/gossio-skills">
+  <img alt="Latest Release" src="https://img.shields.io/github/v/release/inerhead/gossio-skills">
+  <img alt="GitHub Stars" src="https://img.shields.io/github/stars/inerhead/gossio-skills?style=social">
   <img alt="Skills" src="https://img.shields.io/badge/skills-2-blue">
 </p>
 
 ## Quick start
 
 ```bash
-npx skills@latest add gossio/gossio-skills
+npx skills@latest add inerhead/gossio-skills
 ```
 
 ## Skills
@@ -213,20 +213,20 @@ That separation is what prevents silent scope creep.
 ### Option 1 — skills.sh (recommended, Claude Code)
 
 ```bash
-npx skills@latest add gossio/gossio-skills
+npx skills@latest add inerhead/gossio-skills
 ```
 
 To uninstall:
 
 ```bash
-npx skills@latest remove gossio/gossio-skills
+npx skills@latest remove inerhead/gossio-skills
 ```
 
 
 ### Option 2 — Other agents (Cursor, Codex, Antigravity)
 
 ```bash
-git clone https://github.com/gossio/gossio-skills ~/.gossio-skills
+git clone https://github.com/inerhead/gossio-skills ~/.gossio-skills
 cd ~/your-project
 ~/.gossio-skills/scripts/install-to-agent.sh <agent>
 ```
@@ -373,7 +373,7 @@ This project uses [release-please](https://github.com/googleapis/release-please)
 
 ## Author
 
-Maintained by **Gustavo Ossío**. Based on [fernando-skills](https://github.com/Klerith/fernando-skills) by Fernando Herrera.
+Maintained by **Gustavo Ossío**.
 
 ## License
 

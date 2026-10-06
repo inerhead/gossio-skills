@@ -101,7 +101,7 @@ case "$AGENT" in
       echo "$BLOCK_START"
       echo "## Skills (gossio-skills)"
       echo
-      echo "Installed from https://github.com/gossio/gossio-skills. Each entry is a workflow you can invoke by reading the linked file and following its steps."
+      echo "Installed from https://github.com/inerhead/gossio-skills. Each entry is a workflow you can invoke by reading the linked file and following its steps."
       echo
       skill_dirs | while IFS= read -r src; do
         name="$(basename "$src")"
